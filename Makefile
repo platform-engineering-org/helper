@@ -7,4 +7,4 @@ ENGINE := podman
 endif
 
 build:
-	${ENGINE} build -t platform-engineering-org/helper .
+	${ENGINE} build -t ghcr.io/platform-engineering-org/helper:latest .
