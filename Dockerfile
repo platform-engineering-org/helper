@@ -3,7 +3,7 @@ FROM registry.access.redhat.com/ubi9:9.1.0-1750
 COPY requirements.txt .
 
 RUN dnf install -y \
-    curl git \
+    git-2.31.1-2.el9.2.x86_64 \
     openssh-clients-8.7p1-24.el9_1.x86_64 \
     unzip-6.0-56.el9.x86_64 \
     wget-1.21.1-7.el9.x86_64 \
