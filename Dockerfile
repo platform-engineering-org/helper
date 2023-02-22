@@ -5,7 +5,7 @@ COPY requirements.txt .tool-versions /root/
 RUN dnf install -y \
     git openssh-clients python3-pip make unzip && \
     dnf clean all -y && \
-    git clone https://github.com/asdf-vm/asdf.git /root/.asdf --branch v0.11.1 && \
+    git clone https://github.com/asdf-vm/asdf.git /root/.asdf --branch v0.11.2 && \
     . $HOME/.asdf/asdf.sh && \
     asdf plugin-add awscli && \
     asdf plugin-add terraform https://github.com/asdf-community/asdf-hashicorp.git && \
