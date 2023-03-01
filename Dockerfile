@@ -9,6 +9,7 @@ RUN dnf install -y \
     . $HOME/.asdf/asdf.sh && \
     asdf plugin-add awscli && \
     asdf plugin-add terraform https://github.com/asdf-community/asdf-hashicorp.git && \
+    asdf plugin-add pulumi && \
     asdf plugin-add terragrunt && \
     asdf install && \
     pip3 install -r /root/requirements.txt
