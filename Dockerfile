@@ -12,6 +12,7 @@ RUN dnf install -y \
     asdf plugin-add pulumi && \
     asdf plugin-add terragrunt && \
     asdf install && \
-    pip3 install -r /root/requirements.txt
+    pip3 install -r /root/requirements.txt && \
+    ln -s /usr/bin/python3 /usr/bin/python
 
 WORKDIR /workspace
