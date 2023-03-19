@@ -2,7 +2,7 @@ FROM registry.access.redhat.com/ubi9:9.1.0-1782
 
 COPY requirements.txt .tool-versions /root/
 
-ENV ASDF_VERSION=0.11.2
+ENV ASDF_VERSION=v0.11.3
 
 RUN dnf install -y \
     git openssh-clients python3-pip make unzip rubygems openssl-devel perl zlib-devel bzip2 && \
