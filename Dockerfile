@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9:9.1.0-1782
+FROM registry.access.redhat.com/ubi9:9.1.0-1817
 
 COPY requirements.txt .tool-versions /root/
 
