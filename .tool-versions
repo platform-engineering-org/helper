@@ -1,4 +1,4 @@
-awscli 2.11.15
-terragrunt 0.45.4
-terraform 1.4.5
-pulumi 3.64.0
+awscli 2.11.16
+terragrunt 0.45.6
+terraform 1.4.6
+pulumi 3.65.1
