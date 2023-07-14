@@ -1,23 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
-        ":enablePreCommit",
-        "group:allNonMajor",
-        "regexManagers:dockerfileVersions",
-        "schedule:weekly",
-        "docker:pinDigests"
-    ],
-    "regexManagers": [
-        {
-            "fileMatch": [
-                "^Dockerfile$"
-            ],
-            "matchStrings": [
-                "ENV ASDF_VERSION=(?<currentValue>.*?)\\n"
-            ],
-            "depNameTemplate": "asdf-vm/asdf",
-            "datasourceTemplate": "github-releases"
-        }
+        "github>platform-engineering-org/.github"
     ]
 }
