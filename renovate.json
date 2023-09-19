@@ -2,5 +2,13 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "github>platform-engineering-org/.github"
+    ],
+    "packageRules": [
+        {
+          "description": "Group patch updates",
+          "matchUpdateTypes": ["patch"],
+          "groupName": "Patch updates",
+          "automerge": true
+        }
     ]
 }
