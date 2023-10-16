@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9:9.2-755@sha256:351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
+FROM registry.access.redhat.com/ubi9:9.2-755.1696515532@sha256:20f695d2a91352d4eaa25107535126727b5945bff38ed36a3e59590f495046f0
 
 COPY requirements.txt .tool-versions /root/
 
