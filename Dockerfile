@@ -6,7 +6,7 @@ COPY requirements.txt .tool-versions /root/
 ENV ASDF_VERSION=v0.12.0
 
 RUN dnf install -y \
-    git openssh-clients python3-pip make unzip rubygems openssl-devel perl zlib-devel bzip2 && \
+    git openssh-clients python3-pip make unzip rubygems openssl-devel perl zlib-devel bzip2 python3.11 && \
     dnf clean all -y && \
     git clone https://github.com/asdf-vm/asdf.git /root/.asdf --branch "${ASDF_VERSION}" --depth 1 && \
     . /root/.asdf/asdf.sh && \
