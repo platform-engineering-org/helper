@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/python-311:1-38
+FROM registry.access.redhat.com/ubi9/python-311:1-38@sha256:286b53c35373ee34679e3c7d68a357785a509e14b18ea20d6ad3426af639c239
 
 USER root
 WORKDIR /root
