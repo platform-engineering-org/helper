@@ -1,4 +1,4 @@
-awscli 2.21.3
-terragrunt 0.68.14
-terraform 1.9.8
-pulumi 3.139.0
+awscli 2.27.12
+terragrunt 0.78.2
+terraform 1.11.4
+pulumi 3.169.0
