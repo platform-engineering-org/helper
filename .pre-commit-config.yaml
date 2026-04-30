@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: end-of-file-fixer
       - id: trailing-whitespace
@@ -20,11 +20,11 @@ repos:
           - --allow-missing-credentials
       - id: check-json
   - repo: https://github.com/markdownlint/markdownlint
-    rev: v0.13.0
+    rev: v0.15.0
     hooks:
       - id: markdownlint
         additional_dependencies: [rake]
   - repo: https://github.com/mrtazz/checkmake.git
-    rev: 0.2.2
+    rev: v0.3.2
     hooks:
       - id: checkmake
